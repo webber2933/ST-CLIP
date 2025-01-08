@@ -1,0 +1,6 @@
+kick_ball
+run
+climb_stairs
+stand
+shoot_gun
+pick

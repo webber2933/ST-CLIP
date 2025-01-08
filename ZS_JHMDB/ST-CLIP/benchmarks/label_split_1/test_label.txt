@@ -1,0 +1,6 @@
+clap
+sit
+wave
+throw
+pullup
+catch

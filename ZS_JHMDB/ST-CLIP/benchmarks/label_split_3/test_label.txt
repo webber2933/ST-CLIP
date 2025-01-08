@@ -1,0 +1,6 @@
+brush_hair
+push
+pour
+shoot_bow
+jump
+shoot_ball

@@ -1,0 +1,15 @@
+brush_hair
+pick
+shoot_ball
+stand
+push
+run
+pour
+shoot_bow
+shoot_gun
+jump
+golf
+climb_stairs
+swing_baseball
+walk
+kick_ball

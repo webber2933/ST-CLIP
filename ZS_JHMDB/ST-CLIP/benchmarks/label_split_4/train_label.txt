@@ -1,0 +1,15 @@
+throw
+pullup
+catch
+kick_ball
+run
+climb_stairs
+stand
+shoot_gun
+pick
+brush_hair
+push
+pour
+shoot_bow
+jump
+shoot_ball

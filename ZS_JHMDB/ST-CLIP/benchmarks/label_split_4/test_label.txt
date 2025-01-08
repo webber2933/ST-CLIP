@@ -1,0 +1,6 @@
+golf
+swing_baseball
+walk
+clap
+sit
+wave

@@ -1,0 +1,15 @@
+clap
+sit
+wave
+throw
+pullup
+catch
+brush_hair
+push
+pour
+shoot_bow
+jump
+shoot_ball
+golf
+swing_baseball
+walk
