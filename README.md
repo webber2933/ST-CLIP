@@ -16,7 +16,7 @@ Please check [GETTING_STARTED.md](GETTING_STARTED.md) for the training/inference
 
 ## Acknowledgement
 
-We are very grateful to the authors of [AlphAction](https://github.com/MVIG-SJTU/AlphAction), [HIT](https://github.com/joslefaure/HIT), and [iCLIP](https://github.com/webber2933/iCLIP) for open-sourcing their code from which this repository is heavily sourced. If your find these researchs useful, please consider citing their paper as well.
+We are very grateful to the authors of [AlphAction](https://github.com/MVIG-SJTU/AlphAction), [HIT](https://github.com/joslefaure/HIT), and [X-CLIP](https://github.com/microsoft/VideoX/tree/master/X-CLIP) for open-sourcing their code from which this repository is heavily sourced. If your find these researchs useful, please consider citing their paper as well.
 
 ## Citation
 

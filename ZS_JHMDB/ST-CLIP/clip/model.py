@@ -1,3 +1,11 @@
+# Copyright (c) 2025, NVIDIA CORPORATION.  All rights reserved.
+#
+# NVIDIA CORPORATION and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA CORPORATION is strictly prohibited.
+
 from collections import OrderedDict
 from typing import Tuple, Union
 
@@ -246,10 +254,10 @@ class Transformer(nn.Module):
             self.projector = nn.ModuleList([nn.Linear(width, self.embedding_dim) for _ in range(layers)])
             #self.token_norm = LayerNorm(self.embedding_dim)
 
-            # interaction aware prompting for each layer
-            self.IAP_layer = 1
-            self.IAP_alpha = 0.2 # 0.2
-            self.prompts_generator = nn.ModuleList([ContextPrompt(layers=self.IAP_layer, embed_dim=self.embedding_dim, alpha=self.IAP_alpha) for _ in range(layers)])
+            # context prompting for each layer
+            self.prompt_layer = 1
+            self.prompt_alpha = 0.2 # 0.2
+            self.prompts_generator = nn.ModuleList([ContextPrompt(layers=self.prompt_layer, embed_dim=self.embedding_dim, alpha=self.prompt_alpha) for _ in range(layers)])
             self.resblocks = nn.ModuleList([ResidualAttentionBlock(width, heads, attn_mask, False, True) for _ in range(layers)])
         else:
             self.resblocks = nn.ModuleList([ResidualAttentionBlock(width, heads, attn_mask) for _ in range(layers)])
