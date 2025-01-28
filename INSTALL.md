@@ -4,7 +4,7 @@ The step-by-step installation instructions are shown below.
 
 ```bash
 git clone https://github.com/webber2933/ST-CLIP.git
-cd ST-CLIP/ZS-JHMDB/ST-CLIP
+cd ST-CLIP/ZS_JHMDB/ST-CLIP
 
 conda create -n STCLIP python=3.7
 conda activate STCLIP

@@ -5,7 +5,8 @@ Please download videos of the dataset first, and link to the path through symbol
 ### JHMDB
 
 1. make folder for symbolic links
-```bash
+```bash!
+cd ST-CLIP/ZS_JHMDB/ST-CLIP
 mkdir data/jhmdb
 ```
 
@@ -17,5 +18,5 @@ ln -s 'ST-CLIP/ZS_JHMDB/annotation/jhmdb_train_gt_min.json' 'data/jhmdb/annotati
 ln -s 'ST-CLIP/ZS_JHMDB/annotation/jhmdb_test_gt_min.json' 'data/jhmdb/annotations/jhmdb_test_gt_min.json'
 ln -s 'ST-CLIP/ZS_JHMDB/annotation/all_label.txt' 'data/jhmdb/annotations/all_label.txt'
 ln -s 'ST-CLIP/ZS_JHMDB/annotation/testlist.txt' 'data/jhmdb/annotations/testlist.txt'
+ln -s 'ST-CLIP/ZS_JHMDB/annotation/jhmdb_faster_RCNN_person.json' 'data/jhmdb/jhmdb_faster_RCNN_person.json'
 ```
-4. put person detection file in `data/jhmdb`

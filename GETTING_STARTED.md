@@ -1,3 +1,7 @@
+The code for training and inference on ZS-JHMDB are placed in `ST-CLIP/ZS_JHMDB/ST-CLIP`
+
+### Training
+
 To train on a single GPU, you only need to run following command. 
 ```shell
 python train_net.py 
